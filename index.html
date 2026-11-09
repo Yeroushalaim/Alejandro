@@ -62,6 +62,9 @@
   #lb .arrow:hover { background: var(--orange); }
   #lb .la { left: 12px; } #lb .ra { right: 12px; }
 
+  /* Mode paysage : une ligne d'espace entre la recherche Google et le diaporama */
+  @media (orientation: landscape) { header { padding-bottom: 32px; } }
+
   @media (prefers-reduced-motion: reduce) {
     .slideshow > img, .slideshow > img.on { transform: none; transition: opacity .3s; }
     #logo:hover { transform: translateY(-50%); }
